@@ -9,9 +9,9 @@ endif
 
 let g:loaded_better_escape = 1
 
-let g:better_escape_interval = get(g:, "better_escape_interval", 280)
+let g:better_escape_interval = get(g:, "better_escape_interval", 295)
 
-let g:better_escape_shortcut = get(g:, "better_escape_shortcut", ['jj',])
+let g:better_escape_shortcut = get(g:, "better_escape_shortcut", ['jk',])
 
 if type(g:better_escape_shortcut) == v:t_string
   let g:better_escape_shortcut = [g:better_escape_shortcut, ]
